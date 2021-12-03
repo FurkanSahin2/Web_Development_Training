@@ -1,0 +1,26 @@
+Not 1:
+
+"!" koyup enter yapınca hazır html iskeleti verir.
+
+Not 2:
+
+HTML Formatting Elements
+Formatting elements were designed to display special types of text:
+
+<b> - Bold text
+<strong> - Important text (Hem kalın yapar hem de mantıksal olarak önemli olduğunu belirtir)
+<i> - Italic text
+<em> - Emphasized text (Vurgulanan) (İtalik yapar ve önemini vurgular)
+<mark> - Marked text (İşaretlenmiş)
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text (Alt simge)
+<sup> - Superscript text (Üst simge)
+
+
+Not 3:
+
+CTRL + K + C= Yorum satırı
+
+CTRL + K + U= Yorum satırını kaldırma
