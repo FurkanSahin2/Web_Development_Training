@@ -24,3 +24,21 @@ Not 3:
 CTRL + K + C= Yorum satırı
 
 CTRL + K + U= Yorum satırını kaldırma
+
+Not 4:
+
+Soru: div ve section etiketleri arasında ne fark var?
+
+HTML standartı geliştikçe HTML elementlerinin görünüm ve işlevsel özelliklerinin yanına anlamsal özellikler de eklendi.
+HTML etiketleri anlamsal olarak da arama motorları, ekran oyucusu yazılımlar ve tarayıcılara bilgi verebiliyorlar.  
+Örneğin burası sayfanın üst bölümü, burası sayfanın alt bölümü, bu bölümün dili ingilizce gibi bilgileri kodlarla sunabiliyoruz.
+
+HTML section etiketi semantik bir etikettir. Web tarayıcılara anlamsal bir bilgi sunar ve section ile ayrılmış alanın
+sayfada bir bölüm olduğunu ifade eder.
+
+Section etiketi kullanıldığında o bölge tematik olarak ayrılır. Bunlar anlamsal işlevlerdir. Görsel olarak size bir şey sunmazlar.
+Arama motorlarına ve tarayıcılara bilgi verirler. 
+
+HTML Div etiketinin semantik bir anlamı yoktur.  Div etiketi genel taşıyıcı elementtir.  Bir elementi sadece biçimlendirecekseniz 
+ve konumlandıracaksanız, mantıksal bir anlamı yoksa Div etiketi içine alınması doğru olur. Section elementi böyle bir etiket değildir.
+Sayfayı mantıksal bölümlere ayırmak için kullanılır.

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--border: Kenar, tr: table rown (tablonun satırı), td: table data(tablonun sütunu), th: table head (tablo başlığı), colspan: (sütunların  birleştirilmesinde kullanılır), cellpeding: (Metin ile köşenin mesafesini belirler), cellspacing: (Hücreler arası mesafeyi belirler)  -->
+    <table border="1" width="50%" cellpeding="10" cellspacing="5">
+      <thead>
+        <tr>
+          <th>İd</th>
+          <th>Ürün Adı</th>
+          <th>Fiyat</th>
+          <th>Fotoğraf</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>İphone 11</td>
+          <td>9500 TL</td>
+          <td>1.jpg</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td rowspan="2">İphone 12</td>
+          <td>12.000 TL</td>
+          <td>2.jpg</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td colspan="2">15.000 - 3.jpg</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
