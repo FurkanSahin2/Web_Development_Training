@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="register.php">
+      <div>
+        <!--input label örneği ad soyad, telefon vb kısa veri girişlerinde kullanılmaktadır.-->
+        <!--Label etiketi form içindeki veri girişi yapılan etiketlerin ne olduğunu tanımlamak için kullanılır. Bir diğer özelliği vardır tıklandığında ilgili veri girişi elemanına fokus olmasıdır.-->
+        <!--İpucu: type niteliğinin varsayılan değeri "metin"dir.-->
+        <br />
+        <label for="name">Adınız:</label>
+        <input type="text" id="name" />
+      </div>
+      <br />
+      <div>
+        <label for="surname">Soyadınız:</label>
+        <input type="text" id="surname" />
+      </div>
+      <br />
+      <div>
+        <label for="birtday">Doğum Tarihiniz:</label>
+        <input type="datetime-local" id="birtday" name="birtday" />
+      </div>
+      <br />
+      <div>
+        <label for="parola">Parolanız:</label>
+        <input type="password" id="parola" />
+      </div>
+      <br />
+      <div>
+        <!--textarea label örneği genelde mesaj, adres vb uzun veri alımlarında kullanılır.-->
+        <label for="intro">Kendini Anlat: </label>
+        <textarea id="intro"></textarea>
+      </div>
+      <div>
+        <br />
+        <p>En sevdiğin programla dilini işaretleyiniz</p>
+        <!--radio buton label örneği tek seçmeli form veri girişi elemanlarında kullanılmaktadır.-->
+        <input type="radio" id="html" name="programlama dili" />
+        <label for="html">Html</label>
+      </div>
+      <div>
+        <input type="radio" id="css" name="programlama dili" />
+        <label for="css">Css</label>
+      </div>
+      <div>
+        <input type="radio" id="JavaScript" name="programlama dili" />
+        <label for="JavaScript">JavaScript</label>
+      </div>
+      <br />
+      <div>
+        <p>En sevdiğin programla dilini işaretleyiniz</p>
+        <!--checkbox label örneği çoktan seçmeli form veri girişi elemanlarında kullanılmaktadır.-->
+        <input type="checkbox" id="html2" />
+        <label for="html2">Html</label>
+      </div>
+      <div>
+        <input type="checkbox" id="css2" />
+        <label for="css2">Css</label>
+      </div>
+      <div>
+        <input type="checkbox" id="JavaScript2" />
+        <label for="JavaScript2">JavaScript</label>
+      </div>
+      <br />
+      <div>
+        <label for="cities">Hangi şehirdesin:</label>
+        <select id="cities">
+          <option value="34">İstanbul</option>
+          <option value="35">İzmir</option>
+          <option value="41">Kocaeli</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="eposta">E-mail</label>
+        <input type="email" id="eposta" />
+      </div>
+      <br />
+      <div>
+        <!--<input type="number"> sayısal bir giriş alanı tanımlar. Hangi numaraların kabul edileceğine ilişkin kısıtlamalar da belirleyebilirsiniz. Aşağıdaki örnek, 1'den 5'e kadar bir değer girebileceğiniz sayısal bir giriş alanı görüntüler.-->
+        <label for="miktar">Diploma Notunuzu Girin (1 ile 100 arasında):</label>
+        <input type="number" id="miktar" name="miktar" min="1" max="100" />
+      </div>
+      <br />
+      <!--'submit' form işleyicisine form verilerini göndermek için bir düğme tanımlar. Form işleyici tipik olarak giriş verilerini işlemek için bir komut dosyası içeren bir sunucu sayfasıdır.-->
+      <button type="submit">Kaydet</button>
+      <!--'reset' tüm form değerlerini varsayılan değerlerine sıfırlayacak bir sıfırlama düğmesi tanımlar.-->
+      <button type="reset">Temizle</button>
+
+      <input type="button" onclick="alert('Hoşgeldiniz!')" value="Click Me!" />
+      <!--renk içermesi gereken giriş alanları için kullanılır. Tarayıcı desteğine bağlı olarak, giriş alanında bir renk seçici görünebilir.-->
+      <label for="favcolor">Favori rengini seç: </label>
+      <input type="color" id="favcolor" name="favcolor" />
+      <!--Note: 'Value' Bir giriş alanı için varsayılan değeri belirtir.-->
+    </form>
+  </body>
+</html>
